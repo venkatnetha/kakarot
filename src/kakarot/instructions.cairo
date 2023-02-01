@@ -649,6 +649,7 @@ namespace EVMInstructions {
     // @dev Halts execution
     // @param ctx The pointer to the execution context
     // @return Updated execution context.
+    // example-venkat
     func unknown_opcode{
         syscall_ptr: felt*,
         pedersen_ptr: HashBuiltin*,
